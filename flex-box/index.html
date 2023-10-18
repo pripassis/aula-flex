@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body class="body-style min-h-screen">
+    <!-- FLEX -->
+
+    <div class="w-full border-l-2">
+      <h1>FLEX BOX</h1>
+      <h3>FLEX ROW</h3>
+      <div class="flex flex-row">
+        <div class="p-5 bg-blue-500">a</div>
+        <div class="p-5 bg-red-500">b</div>
+        <div class="p-5 bg-green-500">c</div>
+      </div>
+      <h3>FLEX ROW REVERSE</h3>
+      <div class="flex flex-row-reserve">
+        <div class="p-5 bg-blue-500">a</div>
+        <div class="p-5 bg-red-500">b</div>
+        <div class="p-5 bg-green-500">c</div>
+      </div>
+      <div>
+        <h3>FLEX COLUMN</h3>
+        <div class="flex flex-col">
+          <div class="p-5 bg-blue-500">a</div>
+          <div class="p-5 bg-red-500">b</div>
+          <div class="p-5 bg-green-500">c</div>
+        </div>
+      </div>
+      <h3>FLEX COLUMN REVERSE</h3>
+      <div class="flex flex-col-reverse">
+        <div class="p-5 bg-blue-500">a</div>
+        <div class="p-5 bg-red-500">b</div>
+        <div class="p-5 bg-green-500">c</div>
+      </div>
+    </div>
+    <!-- justify cointent -->
+    <div class="w-full border-l-2 pl-5">
+      <h1>JUSTIFY CONTENT</h1>
+      <div class="flex flex-col">
+        <h3>JUSTIFY CONTENT START</h3>
+        <div class="flex justify-start bg-red-500">
+          <div class="p-5 bg-blue-500">a</div>
+        </div>
+        <h3>JUSTIFY CONTENT CENTER</h3>
+        <div class="flex justify-center bg-red-500">
+          <div class="p-5 bg-blue-500">a</div>
+        </div>
+        <h3>JUSTIFY CONTENT END</h3>
+        <div class="flex justify-end bg-red-500">
+          <div class="p-5 bg-blue-500">a</div>
+        </div>
+        <h3>JUSTIFY CONTENT BETWEEN</h3>
+        <div class="flex justify-between bg-red-500">
+          <div class="p-5 bg-blue-500">a</div>
+          <div class="p-5 bg-green-500">b</div>
+          <div class="p-5 bg-fuchsia-500">c</div>
+        </div>
+        <h3>JUSTIFY CONTENT EVENLY</h3>
+        <div class="flex justify-evenly bg-red-500">
+          <div class="p-5 bg-blue-500">a</div>
+          <div class="p-5 bg-green-500">b</div>
+          <div class="p-5 bg-fuchsia-500">c</div>
+        </div>
+        <h3>JUSTIFY CONTENT AROUND</h3>
+        <div class="flex justify-around bg-red-500">
+          <div class="p-5 bg-blue-500">a</div>
+          <div class="p-5 bg-green-500">b</div>
+          <div class="p-5 bg-fuchsia-500">c</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- align items -->
+    <div class="w-full h-full pl-5">
+      <h1>ALIGN ITEMS</h1>
+      <div>
+        <div class="flex flex-row h-96">
+          <h3>ALIGN ITEMS START</h3>
+          <div class="flex items-start bg-red-500">
+            <div class="p-5 bg-blue-500">a</div>
+          </div>
+          <h3>ALIGN ITEMS CENTER</h3>
+          <div class="flex items-center bg-red-500">
+            <div class="p-5 bg-blue-500">a</div>
+          </div>
+          <h3>ALIGN ITEMS END</h3>
+          <div class="flex items-end bg-red-500">
+            <div class="p-5 bg-blue-500">a</div>
+          </div>
+        </div>
+      </div>
+      <h3>JUSTIFY CONTENT + ALIGN ITEMS</h3>
+      <div class="flex flex-col justify-between w-full bg-red-500 h-80">
+        <div
+          class="flex flex-1 justify-start items-start border-2 border-white"
+        >
+          <div class="p-2 bg-blue-500 w-4">a</div>
+          <div class="p-2 bg-green-500 w-4">b</div>
+          <div class="p-2 bg-fuchsia-500 w-4">c</div>
+        </div>
+        <div
+          class="flex flex-1 justify-center items-center border-2 border-white"
+        >
+          <div class="p-2 bg-blue-500 w-4">a</div>
+          <div class="p-2 bg-green-500 w-4">b</div>
+          <div class="p-2 bg-fuchsia-500 w-4">c</div>
+        </div>
+        <div class="flex flex-1 justify-end items-end border-2 border-white">
+          <div class="p-2 bg-blue-500 w-4">a</div>
+          <div class="p-2 bg-green-500 w-4">b</div>
+          <div class="p-2 bg-fuchsia-500 w-4">c</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

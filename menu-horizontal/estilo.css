@@ -1,0 +1,22 @@
+ul.menu_horizontal {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul.menu_horizontal li {
+  display: flex;
+}
+
+ul.menu_horizontal li a {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  color: #333;
+  background: #eee;
+  text-decoration: none;
+}
+ul.menu_horizontal li a:hover {
+  background: #ccc;
+}

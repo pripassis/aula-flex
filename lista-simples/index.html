@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu usando lista</title>
+    <!-- https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/li -->
+    <style>
+      .two {
+        list-style: georgian outside;
+      }
+
+      ul {
+        list-style: none;
+      }
+
+      .plus li::before {
+        content: "+ ";
+      }
+    </style>
+  </head>
+  <body>
+    <ol class="two">
+      <li>primeiro item</li>
+      <li>segundo item</li>
+      <li>terceiro item</li>
+    </ol>
+
+    <ul style="list-style-type: '\1F44D'">
+      <li>primeiro item</li>
+      <li>segundo item</li>
+      <li>terceiro item</li>
+    </ul>
+
+    <ul role="list" class="plus">
+      <li>An item</li>
+      <li>Another item</li>
+    </ul>
+  </body>
+</html>
