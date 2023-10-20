@@ -8,7 +8,6 @@ ul {
 ul li {
   position: relative;
 }
-
 li ul {
   position: absolute;
   left: 149px;
@@ -32,5 +31,7 @@ li:hover ul {
 ul li a:hover {
   text-decoration: underline;
   font-weight: bold;
-  background: #ccc;
-}
+  background: #ff00a2;
+  color: white;
+} */
+/*

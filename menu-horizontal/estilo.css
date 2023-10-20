@@ -3,6 +3,7 @@ ul.menu_horizontal {
   margin: 0;
   padding: 0;
   list-style: none;
+  flex-direction: column;
 }
 
 ul.menu_horizontal li {
@@ -11,12 +12,11 @@ ul.menu_horizontal li {
 
 ul.menu_horizontal li a {
   display: flex;
-  flex-direction: row;
-  padding: 10px;
-  color: #333;
-  background: #eee;
+  padding: 23px;
+  color: #00ccff;
+  background: #4f8563;
   text-decoration: none;
 }
 ul.menu_horizontal li a:hover {
-  background: #ccc;
+  background: #f8f392;
 }
